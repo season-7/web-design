@@ -54,48 +54,24 @@
 }
 .slideshow li:nth-child(2) span {
     background-image: url(../assets/2.jpg);
-    -webkit-animation-delay: 4s;
-    -moz-animation-delay: 4s;
-    -o-animation-delay: 4s;
-    -ms-animation-delay: 4s;
     animation-delay: 4s;
 }
 .slideshow li:nth-child(3) span {
     background-image: url(../assets/3.jpg);
-    -webkit-animation-delay: 8s;
-    -moz-animation-delay: 8s;
-    -o-animation-delay: 8s;
-    -ms-animation-delay: 8s;
     animation-delay: 8s;
 }
 .slideshow li:nth-child(4) span {
     background-image: url(../assets/4.jpg);
-    -webkit-animation-delay: 12s;
-    -moz-animation-delay: 12s;
-    -o-animation-delay: 12s;
-    -ms-animation-delay: 12s;
     animation-delay: 12s;
 }
 
 .slideshow li:nth-child(2) div {
-    -webkit-animation-delay: 4s;
-    -moz-animation-delay: 4s;
-    -o-animation-delay: 4s;
-    -ms-animation-delay: 4s;
     animation-delay: 4s;
 }
 .slideshow li:nth-child(3) div {
-    -webkit-animation-delay: 8s;
-    -moz-animation-delay: 8s;
-    -o-animation-delay: 8s;
-    -ms-animation-delay: 8s;
     animation-delay: 8s;
 }
 .slideshow li:nth-child(4) div {
-    -webkit-animation-delay: 12s;
-    -moz-animation-delay: 12s;
-    -o-animation-delay: 12s;
-    -ms-animation-delay: 12s;
     animation-delay: 12s;
 }
 
@@ -106,3 +82,11 @@
     37.5% { opacity: 0 }
     100% { opacity: 0 }
 }
+@keyframes titleAnimation {
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    12.5% { opacity: 1; animation-timing-function: ease-out; }
+    25% { opacity: 1  }
+    37.5% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
