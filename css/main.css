@@ -24,6 +24,23 @@
     z-index: 0;
       animation: imageAnimation 16s linear infinite 0s;
 }
+
+/*slide show div*/
+
+.slideshow li div {
+    z-index: 1000;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    -webkit-animation: titleAnimation 36s linear infinite 0s;
+    -moz-animation: titleAnimation 36s linear infinite 0s;
+    -o-animation: titleAnimation 36s linear infinite 0s;
+    -ms-animation: titleAnimation 36s linear infinite 0s;
+    animation: titleAnimation 36s linear infinite 0s;
+}
 .slideshow li:nth-child(1) span {
     background-image: url(../assets/imageedit_59_4484213545.jpg);
 }
