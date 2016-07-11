@@ -35,11 +35,19 @@
     width: 100%;
     text-align: center;
     opacity: 0;
-    -webkit-animation: titleAnimation 36s linear infinite 0s;
-    -moz-animation: titleAnimation 36s linear infinite 0s;
-    -o-animation: titleAnimation 36s linear infinite 0s;
-    -ms-animation: titleAnimation 36s linear infinite 0s;
-    animation: titleAnimation 36s linear infinite 0s;
+    -webkit-animation: titleAnimation 16s linear infinite 0s;
+    -moz-animation: titleAnimation 16s linear infinite 0s;
+    -o-animation: titleAnimation 16s linear infinite 0s;
+    -ms-animation: titleAnimation 16s linear infinite 0s;
+    animation: titleAnimation 16s linear infinite 0s;
+}
+
+.cb-slideshow li div h1 {
+  font-family: 'Slabo 27px', serif;
+    font-size: 160px;
+    padding: 0 30px;
+    line-height: 120px;
+    color: rgba(255,255,255,0.8);
 }
 .slideshow li:nth-child(1) span {
     background-image: url(../assets/imageedit_59_4484213545.jpg);
