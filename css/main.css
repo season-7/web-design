@@ -35,11 +35,10 @@
     width: 100%;
     text-align: center;
     opacity: 0;
-    -webkit-animation: titleAnimation 16s linear infinite 0s;
-    -moz-animation: titleAnimation 16s linear infinite 0s;
-    -o-animation: titleAnimation 16s linear infinite 0s;
-    -ms-animation: titleAnimation 16s linear infinite 0s;
     animation: titleAnimation 16s linear infinite 0s;
+}
+li{
+    list-style-type: none;
 }
 
 .slideshow li div h1 {
