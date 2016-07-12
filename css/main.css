@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 .fade-in {
   position: relative;
   height: 100%;
@@ -83,6 +85,41 @@
   top: 10%;
 }
 
+
+.menu-item {
+    position: relative;
+    /*display: inline-block;*/
+    /*border: 1px dashed #000;*/
+    padding: 30px;
+    background: #ffffa2;
+    height: 10px;
+    opacity: 0.3;
+    text-decoration: none;
+    
+    /* Firefox */
+    -moz-transition: all 1s ease;
+    /* WebKit */
+    -webkit-transition: all 1s ease;
+    /* Opera */
+    -o-transition: all 1s ease;
+    /* Standard */
+    transition: all 1s ease;
+}
+
+.menu-item:hover {
+    opacity: 1;
+    
+    /* Firefox */
+    -moz-transform: scale(1) rotate(360deg) translate(10px);
+    /* WebKit */
+    -webkit-transform: scale(1) rotate(360deg) translate(10px);
+    /* Opera */
+    -o-transform: scale(1) rotate(360deg) translate(10px);
+    /* Standard */
+    transform: scale(1) rotate(360deg) translate(10px);
+    
+    z-index: 1;
+}
 .last {
     height: 800px;
     width: 100%;
@@ -94,11 +131,20 @@
 
 }
 .option {
-    -vendor-animation-iteration-count: infinite;
-    padding-top: 30px;
+    /*-vendor-animation-iteration-count: infinite;*/
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: 5;
+    padding-top: 90px;
     text-align: center;
-    color:#ff5722;
-    font-size: 40px;
-    font-family: 
+    color:#fff;
+    font-size: 80px;
+    font-family: 'Lobster', italic;
 
 }
+
+  #toggle {
+    text-align: center;
+    margin-top:20px;
+    padding-top:38px
+  }
