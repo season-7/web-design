@@ -84,6 +84,7 @@
     37.5% { opacity: 0 }
     100% { opacity: 0 }
 }
+
 /*
   ============================================
   Styles
@@ -93,6 +94,20 @@
 li {
   list-style-type: none;
 }
+h1 {
+  text-align: center;
+}
+.top-bar {
+  background-color:  #795548;
+  color: #ff5722;
+}
+.menu li a {
+  background-color: #795548;
+  color: #fff;
+  font-size: 20px;
+
+}
+
 /*
   ============================================
   Middle
@@ -101,5 +116,5 @@ li {
 
 .text {
   position: relative;
-  top: 30%;
+  top: 25%;
 }
