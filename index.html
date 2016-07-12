@@ -6,7 +6,9 @@
     <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/hover.css">
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
   </head>
   <body>
@@ -51,14 +53,12 @@
     
   
     <div class="option animated wobble" >Awesome animations</div>
-    <div class="button-group">
-        <a href="#test-popup" class="hinge"><a class="success button round">Click me:)</a></a>  
+    <p style="text-align:center; color:orange; font-size:10px;">Click anywhere to toggle the box.</p>
+    <div class="button-group" id="toggle">
+        <a class="success button">Don't Click me:)</a>
 
   </div>
-  <!-- Popup itself -->
-  <div id="test-popup" class="white-popup mfp-with-anim mfp-hide">
-        <p>Hey! Close me.</p>  
-  </div>
+ 
 
    
       
@@ -68,7 +68,9 @@
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/52b2061ad6.js"></script> -->
     <script type="text/javascript" src="js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
     <script type="text/javascript" src="js/vendor/foundation.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 
   </body>
 </html>
