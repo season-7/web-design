@@ -80,5 +80,17 @@
 }
 .text {
   position: relative;
-  top: 30%;
+  top: 40%;
+}
+
+.last {
+
+    position: relative;
+    top:30%;
+    background-image: url();
+
+}
+.option {
+    -vendor-animation-iteration-count: infinite;
+
 }
