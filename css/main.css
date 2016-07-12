@@ -80,17 +80,25 @@
 }
 .text {
   position: relative;
-  top: 40%;
+  top: 10%;
 }
 
 .last {
-
+    height: 800px;
+    width: 100%;
     position: relative;
-    top:30%;
-    background-image: url();
+    top:60%;
+    background-image: url(../assets/animation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .option {
     -vendor-animation-iteration-count: infinite;
+    padding-top: 30px;
+    text-align: center;
+    color:#ff5722;
+    font-size: 40px;
+    font-family: 
 
 }
