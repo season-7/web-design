@@ -1,7 +1,5 @@
 $(document).ready(function() {
-$(".design").on('hover' ,function() {
-  $(this)addClass('animated shake');
-  $(".design").css(animation-iteration-count:infinite;);
-
-})
+  $('#normal').mouseover(function(){
+      $(this).stop().effect('shake', {distance:3}, 200);
+  });
 });
