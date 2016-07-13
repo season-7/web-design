@@ -139,18 +139,13 @@ h1.shake {
     background-size: cover;
 
 }
-.option {
-    /*-vendor-animation-iteration-count: infinite;*/
-    -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-iteration-count: 5;
-    padding-top: 90px;
+
+.cd-intro h1{
+     /*padding-top: 90px;*/
     text-align: center;
     color:#fff;
     font-size: 80px;
     font-family: 'Lobster', italic;
-
-
 }
 
   #toggle {
